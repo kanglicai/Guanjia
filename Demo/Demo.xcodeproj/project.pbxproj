@@ -15,7 +15,6 @@
 		0C056118212FFEB10039E681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C056117212FFEB10039E681 /* main.m */; };
 		0C056122212FFEB20039E681 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C056121212FFEB20039E681 /* DemoTests.m */; };
 		0C05612D212FFEB20039E681 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C05612C212FFEB20039E681 /* DemoUITests.m */; };
-		0CAEA32A2133F50300D682EA /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEA3292133F50300D682EA /* IndexViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,6 @@
 		0C056128212FFEB20039E681 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C05612C212FFEB20039E681 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		0C05612E212FFEB20039E681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CAEA3282133F50300D682EA /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
-		0CAEA3292133F50300D682EA /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +101,6 @@
 		0C056107212FFEAD0039E681 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				0CAEA3272133F4EE00D682EA /* Index */,
 				0C056108212FFEAD0039E681 /* AppDelegate.h */,
 				0C056109212FFEAD0039E681 /* AppDelegate.m */,
 				0C05610B212FFEAD0039E681 /* ViewController.h */,
@@ -134,15 +130,6 @@
 				0C05612E212FFEB20039E681 /* Info.plist */,
 			);
 			path = DemoUITests;
-			sourceTree = "<group>";
-		};
-		0CAEA3272133F4EE00D682EA /* Index */ = {
-			isa = PBXGroup;
-			children = (
-				0CAEA3282133F50300D682EA /* IndexViewController.h */,
-				0CAEA3292133F50300D682EA /* IndexViewController.m */,
-			);
-			path = Index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +265,6 @@
 				0C05610D212FFEAD0039E681 /* ViewController.m in Sources */,
 				0C056118212FFEB10039E681 /* main.m in Sources */,
 				0C05610A212FFEAD0039E681 /* AppDelegate.m in Sources */,
-				0CAEA32A2133F50300D682EA /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
